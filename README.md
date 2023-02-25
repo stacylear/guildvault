@@ -16,6 +16,8 @@ Make sure you are in the client directory and install all the dependencies or no
 
 `npm install` 
 
+You may wish to edit src/utils/apiURL.js if you wish to use the server locally. The default configuration points to teh API deployed on Cyclic.
+
 # Server API
 
 ## Packages/Dependencies Used in the Server API:
