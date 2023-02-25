@@ -6,11 +6,13 @@ const {
         updateTransactionCtrl,
         deleteTransactionCtrl,
       } = require("../../controllers/transactions/transactionCtrl"); //require the transaction controller
+const isLogin = require('../../middleware/isLogin');
 const transactionsRoute = express.Router(); //use the express.Router class to create modular, mountable route handler
 
 
+
 //Create Transaction
-transactionsRoute.post('/', createTransactionCtrl); //use express routing to create a new transaction
+transactionsRoute.post('/', isLogin, createTransactionCtrl); //use express routing to create a new transaction
 
 //Get All Transactions
 transactionsRoute.get('/', getTransactionsCtrl); //use express routing to get all transactions
