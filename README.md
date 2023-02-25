@@ -34,7 +34,7 @@ Make sure you are in the server directory and install all the dependencies or no
 
 `npm install` 
 
-# To run the full-stack application locally:
+## To run the full-stack application locally:
 
 - Create a `.env` file in the root of the server folder, and add the following entries as `key: value` 
   - PORT: `1313` (can be any port, example: 3000) 
