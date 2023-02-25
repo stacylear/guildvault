@@ -12,7 +12,6 @@ const usersRoute = require('./routes/users/usersRoute'); //require the usersRout
 const accountRoute = require('./routes/accounts/accountRoute'); //require the accountsRoute
 const transactionsRoute = require('./routes/transactions/transactionsRoute'); //require the transactionsRoute
 
-
 const app = express(); //initialize express 
 
 //MIDDLEWARE
