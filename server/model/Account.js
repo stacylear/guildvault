@@ -3,7 +3,6 @@
 const mongoose = require('mongoose'); //require the mongoose package
 
 //ACCOUNT SCHEMA
-
 const accountSchema = new mongoose.Schema({
     name: {
         type: String,

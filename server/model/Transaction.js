@@ -3,7 +3,6 @@
 const mongoose = require('mongoose'); //require the mongoose package
 
 //ACCOUNT SCHEMA
-
 const transactionSchema = new mongoose.Schema({
     name: {
         type: String,

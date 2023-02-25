@@ -3,7 +3,6 @@
 const mongoose = require('mongoose'); //require the mongoose package
 
 //USER SCHEMA
-
 const userSchema = new mongoose.Schema({
     fullname: {
         type: String,
