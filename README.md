@@ -4,6 +4,8 @@ Guild Vault is a personal finance tool that allows users to set up accounts to t
 
 # Client
 
+Here is the [Client Repo](https://github.com/stacylear/guildvault-client).
+
 The client was created with React. It uses HTML, TailwindCSS, and JavaScript. It connects to the server API using URLs specified in the utils/apiURL.js file. Authorization was implemented using jsonwebtoken. 
 
 ## Packages/Dependencies Used in the Client:
@@ -19,6 +21,8 @@ Make sure you are in the client directory and install all the dependencies or no
 You may wish to edit src/utils/apiURL.js if you wish to use the server locally. The default configuration points to the API deployed on Cyclic.
 
 # Server API
+
+Here is the [Server Repo](https://github.com/stacylear/guildvault-server-api).
 
 ## Packages/Dependencies Used in the Server API:
 
